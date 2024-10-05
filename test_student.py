@@ -11,7 +11,7 @@ class TestStudent(unittest.TestCase):
     def test_email(self):
         student = Student('John', 'Doe')
 
-        self.assertEqual(Student.email, 'johndoe@email.com')
+        self.assertEqual(student.email, 'johndoe@email.com')
 
 
     def test_alert_santa(self):
